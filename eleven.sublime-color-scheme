@@ -247,7 +247,7 @@
         {
             "name": "Markdown Title Hash",
             "scope": "punctuation.definition.heading.markdown",
-            "foreground": "var(red2)"
+            "foreground": "var(red)"
         },
         {
             "name": "Markdown Raw",
@@ -262,17 +262,17 @@
         {
             "name": "Markdown link title braces",
             "scope": "punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown",
-            "foreground": "var(red2)"
+            "foreground": "var(red)"
         },
         {
             "name": "Markdown link braces",
             "scope": "punctuation.definition.metadata.markdown",
-            "foreground": "var(red2)"
+            "foreground": "var(red)"
         },
         {
             "name": "Markdown link",
             "scope": "markup.underline.link.markdown, markup.underline.link.image.markdown, meta.image.inline.markdown",
-            "foreground": "var(red2)",
+            "foreground": "var(grey)",
             "font_style": "italic"
         },
         {

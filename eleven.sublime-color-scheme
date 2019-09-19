@@ -61,7 +61,7 @@
         {
             "name": "Storage",
             "scope": "storage",
-            "foreground": "#005cc5"
+            "foreground": "#d73a49"
         },
         {
             "name": "Storage type",
@@ -115,7 +115,6 @@
             "name": "Library class/type",
             "scope": "support.type, support.class",
             "foreground": "#005cc5",
-            "font_style": "italic"
         },
         {
             "name": "Library variable",

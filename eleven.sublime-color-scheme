@@ -1,50 +1,23 @@
 {
-    "name": "Eleven",
+    "name": "Eleven Light",
     "author": "Kennith Leung",
-    "variables":
-    {
-        "black": "#222222",
-        "blue": "#005cc5",
-        "blue2": "#077cf9",
-        "blue3": "#032f62",
-        "blue4": "#24292e",
-        "cyan": "#00a8c6",
-        "grey": "#6a737d",
-        "grey2": "#9199a2",
-        "grey3": "#333333",
-        "orange": "#f7b83d",
-        "orange2": "#ffe792",
-        "orange3": "#e36209",
-        "purple": "#6f42c1",
-        "red": "#cf433e",
-        "red2": "#d73a49",
-        "red3": "#e61f44",
-        "red4": "#664e4d",
-        "white": "#ffffff",
-        "white2": "#f0f0f0",
-        "yellow": "#e6db74",
-        "yellow2": "#8fbe00",
-        "yellow3": "#a7da1e",
-        "yellow4": "#a6e22e",
-        "yellow5": "#75715e"
-    },
     "globals":
     {
-        "foreground": "var(blue4)",
-        "background": "var(white)",
-        "caret": "var(black)",
-        "invisibles": "var(white)",
-        "line_highlight": "var(white2)",
-        "selection": "var(blue2)",
-        "selection_foreground": "var(white)",
-        "selection_border": "var(white)",
-        "active_guide": "var(white)",
-        "find_highlight_foreground": "var(grey3)",
-        "find_highlight": "var(orange2)",
+        "foreground": "#24292e",
+        "background": "#ffffff",
+        "caret": "#222222",
+        "invisibles": "#ffffff",
+        "line_highlight": "#f5f5f5",
+        "selection": "#077cf9",
+        "selection_foreground": "#ffffff",
+        "selection_border": "#ffffff",
+        "active_guide": "#ffffff",
+        "find_highlight_foreground": "#333333",
+        "find_highlight": "#ffe792",
         "brackets_options": "underline",
-        "brackets_foreground": "var(blue4)",
+        "brackets_foreground": "#24292e",
         "bracket_contents_options": "underline",
-        "bracket_contents_foreground": "var(blue4)",
+        "bracket_contents_foreground": "#24292e",
         "tags_options": "stippled_underline"
     },
     "rules":
@@ -52,94 +25,97 @@
         {
             "name": "Comment",
             "scope": "comment",
-            "foreground": "var(grey)",
+            "foreground": "#6a737d",
             "font_style": "italic"
         },
         {
             "name": "String",
             "scope": "string",
-            "foreground": "var(blue3)"
+            "foreground": "#032f62"
         },
         {
             "name": "Number",
             "scope": "constant.numeric",
-            "foreground": "var(blue3)"
+            "foreground": "#032f62"
         },
         {
             "name": "Built-in constant",
             "scope": "constant.language",
-            "foreground": "var(blue)"
+            "foreground": "#005cc5"
         },
         {
             "name": "User-defined constant",
             "scope": "constant.character, constant.other",
-            "foreground": "var(blue)"
+            "foreground": "#005cc5"
         },
         {
-        	"name": "Variable",
+            "name": "Variable",
             "scope": "variable",
-            "foreground": "var(orange3)"
+            "foreground": "#e36209"
         },
         {
             "name": "Keyword",
             "scope": "keyword",
-            "foreground": "var(red2)"
+            "foreground": "#d73a49"
         },
         {
             "name": "Storage",
             "scope": "storage",
-            "foreground": "var(red2)"
+            "foreground": "#005cc5"
         },
         {
             "name": "Storage type",
             "scope": "storage.type",
-            "foreground": "var(red2)"
+            "foreground": "#d73a49"
         },
         {
             "name": "Class name",
             "scope": "entity.name.class",
-            "foreground": "var(blue)",
+            "foreground": "#005cc5",
             "font_style": "underline"
         },
         {
             "name": "Inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "var(blue)"
+            "foreground": "#005cc5",
+            "font_style": "italic underline"
         },
         {
             "name": "Function name",
             "scope": "entity.name.function",
-            "foreground": "var(blue)"
+            "foreground": "#005cc5"
         },
         {
             "name": "Function argument",
             "scope": "variable.parameter",
-            "foreground": "var(blue4)"
+            "foreground": "#24292e",
+            "font_style": "italic"
         },
         {
             "name": "Tag name",
             "scope": "entity.name.tag",
-            "foreground": "var(red2)"
+            "foreground": "#d73a49"
         },
         {
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(blue)"
+            "foreground": "#005cc5"
         },
         {
             "name": "Library function",
             "scope": "support.function",
-            "foreground": "var(purple)"
+            "foreground": "#6f42c1"
         },
         {
             "name": "Library constant",
             "scope": "support.constant",
-            "foreground": "var(blue)"
+            "foreground": "#005cc5"
         },
         {
             "name": "Library class/type",
             "scope": "support.type, support.class",
-            "foreground": "var(blue)"
+            "foreground": "#005cc5",
+            "font_style": "italic"
         },
         {
             "name": "Library variable",
@@ -148,63 +124,63 @@
         {
             "name": "Invalid",
             "scope": "invalid",
-            "foreground": "var(red)",
-            "background": "var(red4)"
+            "foreground": "#cf433e",
+            "background": "#664e4d"
         },
         {
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
-            "foreground": "var(red)",
-            "background": "var(red4)"
+            "foreground": "#cf433e",
+            "background": "#664e4d"
         },
         {
             "name": "JSON String",
             "scope": "meta.structure.dictionary.json string.quoted.double.json",
-            "foreground": "var(blue3)"
+            "foreground": "#032f62"
         },
         {
             "name": "diff.header",
             "scope": "meta.diff, meta.diff.header",
-            "foreground": "var(yellow5)"
+            "foreground": "#75715E"
         },
         {
             "name": "diff.deleted",
             "scope": "markup.deleted",
-            "foreground": "var(cyan)"
+            "foreground": "#00A8C6"
         },
         {
             "name": "diff.inserted",
             "scope": "markup.inserted",
-            "foreground": "var(yellow4)"
+            "foreground": "#A6E22E"
         },
         {
             "name": "diff.changed",
             "scope": "markup.changed",
-            "foreground": "var(yellow)"
+            "foreground": "#E6DB74"
         },
         {
             "scope": "constant.numeric.line-number.find-in-files - match",
-            "foreground": "color(var(yellow2) alpha(0.63))"
+            "foreground": "#8FBE00A0"
         },
         {
             "scope": "entity.name.filename.find-in-files",
-            "foreground": "var(yellow)"
+            "foreground": "#E6DB74"
         },
         {
             "scope": "keyword.other",
-            "foreground": "var(grey2)"
+            "foreground": "#9199a2"
         },
         {
             "scope": "meta.property-value, support.constant.property-value, constant.other.color",
-            "foreground": "var(blue3)"
+            "foreground": "#032f62"
         },
         {
             "scope": "meta.structure.dictionary.json string.quoted.double.json",
-            "foreground": "var(blue)"
+            "foreground": "#005cc5"
         },
         {
             "scope": "meta.structure.dictionary.value.json string.quoted.double.json",
-            "foreground": "var(blue3)"
+            "foreground": "#032f62"
         },
         {
             "name": "Function argument",
@@ -214,71 +190,71 @@
         {
             "name": "Function argument",
             "scope": "meta.property-value punctuation.separator.key-value",
-            "foreground": "var(blue4)"
+            "foreground": "#24292e"
         },
         {
             "name": "Function argument",
             "scope": "keyword.other.use, keyword.other.function.use, keyword.other.namespace, keyword.other.new, keyword.other.special-method, keyword.other.unit, keyword.other.use-as",
-            "foreground": "var(red2)"
+            "foreground": "#d73a49"
         },
         {
             "name": "Function argument",
             "scope": "meta.use support.class.builtin, meta.other.inherited-class support.class.builtin",
-            "foreground": "var(blue4)",
+            "foreground": "#24292e",
             "font_style": "normal"
         },
         {
             "name": "Function argument",
             "scope": "variable.other",
-            "foreground": "var(blue4)",
+            "foreground": "#24292e",
             "font_style": "normal"
         },
         {
             "name": "Coffeescript Function argument",
             "scope": "variable.parameter.function.coffee",
-            "foreground": "var(blue3)",
+            "foreground": "#032f62",
             "font_style": "italic"
         },
         {
             "name": "Markdown Titles",
             "scope": "entity.name.section.markdown",
-            "foreground": "var(blue)"
+            "foreground": "#005cc5"
         },
         {
             "name": "Markdown Title Hash",
             "scope": "punctuation.definition.heading.markdown",
-            "foreground": "var(red)"
+            "foreground": "#d73a49"
         },
         {
             "name": "Markdown Raw",
             "scope": "markup.raw.inline.markdown",
-            "foreground": "var(blue3)"
+            "foreground": "#032f62"
         },
         {
             "name": "Markdown bold stars",
             "scope": "punctuation.definition.bold.markdown, punctuation.definition.italic.markdown",
-            "foreground": "var(red2)"
+            "foreground": "#d73a49"
         },
         {
             "name": "Markdown link title braces",
             "scope": "punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown",
-            "foreground": "var(red)"
+            "foreground": "#d73a49"
         },
         {
             "name": "Markdown link braces",
             "scope": "punctuation.definition.metadata.markdown",
-            "foreground": "var(red)"
+            "foreground": "#d73a49"
         },
         {
             "name": "Markdown link",
             "scope": "markup.underline.link.markdown, markup.underline.link.image.markdown, meta.image.inline.markdown",
-            "foreground": "var(grey)",
+            "foreground": "#d73a49",
             "font_style": "italic"
         },
         {
             "name": "Markdown bold/italic",
             "scope": "markup.bold.markdown, markup.italic.markdown",
-            "foreground": "var(red2)"
+            "foreground": "#d73a49"
         },
         {
             "name": "Markdown bold/italic",
@@ -293,27 +269,27 @@
         {
             "name": "Markdown pre",
             "scope": "markup.raw.block.markdown",
-            "foreground": "var(red4)"
+            "foreground": "#664e4d"
         },
         {
             "name": "GitGutter deleted",
             "scope": "markup.deleted.git_gutter",
-            "foreground": "var(red3)"
+            "foreground": "#e61f44"
         },
         {
             "name": "GitGutter inserted",
             "scope": "markup.inserted.git_gutter",
-            "foreground": "var(yellow3)"
+            "foreground": "#a7da1e"
         },
         {
             "name": "GitGutter changed",
             "scope": "markup.changed.git_gutter",
-            "foreground": "var(orange)"
+            "foreground": "#f7b83d"
         },
         {
             "name": "CSS Class",
             "scope": "entity.other.attribute-name.class.css",
-            "foreground": "var(blue)"
+            "foreground": "#005cc5"
         }
     ]
 }
